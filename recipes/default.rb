@@ -1,6 +1,5 @@
 id = 'themis-finals-sample-image'
 
-include_recipe 'python::default'
-include_recipe 'python::pip'
+include_recipe 'poise-python::default'
 
-python_pip 'themis.attack'
+python_package 'themis.attack'
